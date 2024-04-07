@@ -1,0 +1,46 @@
+.msgOther{
+    display: flex;
+    margin: 10px 20px;
+    max-width: 75%;
+    min-width: 40%;
+}
+.msgSelf{
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.msgSelf .msgDetails{
+    max-width: 75%;
+    background-color: rgb(47, 161, 79);
+}
+
+.messageIcon{
+    background-color: #c2c2c2;
+    font-size: 1.5rem;
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+}
+.msgDetails{
+    box-shadow: 2px 2px 2px black;
+    background-color: #81b0b5;
+    padding: 2px 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    min-width: 40%;
+    max-width: 100%;
+}
+.msgName{
+    font-weight: bold;
+}
+.msg{
+    font-size: 0.9rem;
+    margin-left: 3px;
+}
+.timeStamp{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.6rem;
+}
